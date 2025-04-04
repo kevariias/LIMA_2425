@@ -1,0 +1,276 @@
+body {
+    margin: 5px 17px 10px 17px;
+    text-align: center;
+    background-color: aliceblue;
+    padding: auto;
+}
+
+/* Empieza el header */
+
+header {
+    margin: 2px 20px 10px 20px;
+}
+
+
+#iconos ul {
+    display: inline-block;
+    margin-left: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    list-style: none;
+    padding: 0%;
+    overflow: hidden;
+    background-color: white;
+    max-height: 36px;
+}
+
+#iconos ul li {
+    display: inline-block;
+}
+
+#iconos ul li a {
+    display: block;
+    width: 24px;
+    height: 25px;
+    background-image: url(https://1.bp.blogspot.com/-CLqcvZtBWCQ/U_oDeDpK-RI/AAAAAAAAA9U/PR7RwGKarOE/s1600/sprite.png);
+    float: left;
+    background-color: rgb(54, 54, 158);
+    border: 2px solid;
+
+    border-radius: 5px;
+    color: rgb(0, 89, 255);
+    margin: 4px;
+    transition: all 1s ease;
+}
+
+#iconos ul li a.facebook {
+    background-position: 0px 0px;
+}
+
+#iconos ul li a.rss {
+    background-position: -72px 0px;
+}
+
+#iconos ul li a.mail {
+    background-position: -96px 0px;
+}
+
+#iconos ul li a:hover {
+    background-color: coral;
+    border: 2px solid black;
+    border-radius: 26px;
+    transform: rotate(360deg);
+    transform: scale(1.25);
+}
+
+
+nav ul {
+    overflow: hidden;
+    margin-top: 8%;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 0%;
+    background-color: #30a74e;
+    border-radius: 15px;
+}
+
+nav li {
+
+    display: inline-flex;
+    padding-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav li:hover {
+    display: inline-block;
+    background-color: green;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+nav li a {
+    display: contents;
+    padding: 10%;
+    color: white;
+}
+
+
+#tituloprincipal {
+    margin-top: 90px;
+    display: flex;
+}
+
+.super-titulo {
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 4rem;
+    color: #1a651a;
+}
+
+.imagen-header {
+    display: block;
+    width: 230px;
+    height: 230px;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-radius: 60px;
+}
+
+.imagen-header2 {
+    width: 600px;
+    height: 350px;
+    margin-top: 150px;
+}
+
+/* Empieza el body */
+
+/*historia*/
+
+body {
+    background-color: whitesmoke;
+}
+
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (max-width: 1276px) { 
+
+    body {background-color: rgb(233, 174, 47);}
+ }
+ 
+ 
+  /*Medium devices (tablets, 768px and up)*/
+ @media (max-width: 1068px) { 
+ 
+    body {background-color: rgb(27, 158, 23);}
+ }
+ 
+  
+#pepito {
+    margin-top: 8px;
+    margin-left: 14%;
+    margin-right: 14%;
+    padding: 10px;
+    border: 10px solid whitesmoke;
+    background-image: url(beigetextura.jpg);
+}
+
+
+
+#historia {
+    margin-top: 80px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imagenh1 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: auto;
+}
+
+#imagenh2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 650px;
+    height: auto;
+}
+
+#imagenh3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    height: auto;
+}
+
+/*copa america */
+
+#copamerica {
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    border: 5px solid seashell;
+    background-color: aliceblue;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#imagencp {
+    text-align: center;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+#andares {
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.tablero,
+td,
+th {
+    border: 5px solid seashell;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+
+
+
+
+#imagenf1 {
+    width: 220px;
+    height: 220px;
+}
+
+
+#imagenf2 {
+    width: 220px;
+    height: 220px;
+}
+
+#imagenf3 {
+    width: 220px;
+    height: 220px;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    background-color: #cabe19ad;
+}
+
+input, textarea, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(53, 148, 192);
+    color: aqua;
+    transition: 0.5s;
+}

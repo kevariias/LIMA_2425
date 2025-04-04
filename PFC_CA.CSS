@@ -1,0 +1,66 @@
+header {
+    background-image: url(herraduras.jpg);
+    color: rgb(41, 146, 41);
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0%;
+}
+
+
+
+body {
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: aliceblue;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#primerseccion {
+    color: rgb(41, 146, 41);
+    margin-top: 50px;
+    text-align: center;
+    background-image: url(Materias\ Textiles\ Africanas.jpeg);
+}
+
+
+#secunseccion {
+    color: rgb(41, 146, 41);
+    margin-bottom: 50px;
+}
+
+
+
+#contenedor1 {
+    display: grid;
+    column-gap: 5px;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    padding: 1px;
+    margin: 2px;
+    margin-bottom: 100px;
+}
+
+#contenedor2 {
+    background-image: url(beigetextura.jpg);
+    display: grid;
+    column-gap: 5px;
+    row-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 1px;
+    margin: 1px;
+}
+
+.hover {
+    transition: 1.0s;
+}
+
+.hover:hover {
+    transform: scaleY(1.1);
+}
+
